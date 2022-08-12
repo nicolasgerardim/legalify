@@ -45,20 +45,20 @@ const Footer = () => {
       </div>
       <div className="flex justify-evenly w-1/3">
         <div className="flex flex-col">
-            <p>Instagram</p>
-            <Image src="/instagramQR.png" height={85} width={85}/>
+          <p>Instagram</p>
+          <Image src="/instagramQR.png" height={85} width={85} />
         </div>
         <div>
-        <div className="flex flex-col">
+          <div className="flex flex-col">
             <p>Facebook</p>
-            <Image src="/facebookQR.png" height={85} width={85}/>
-        </div>
+            <Image src="/facebookQR.png" height={85} width={85} />
+          </div>
         </div>
         <div>
-        <div className="flex flex-col">
+          <div className="flex flex-col">
             <p>Linkedin</p>
-            <Image src="/linkedinQR.png" height={85} width={85}/>
-        </div>
+            <Image src="/linkedinQR.png" height={85} width={85} />
+          </div>
         </div>
       </div>
     </footer>
